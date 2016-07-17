@@ -1,0 +1,98 @@
+body {
+  overflow-x: hidden;
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand img {
+  width: 30%;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+}
+
+.navbar-fixed-top {
+  top: 5%;
+}
+
+header {
+  position: relative;
+  min-height: auto;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  background-color: #c9c9c9;
+  /*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+}
+
+.video-background {
+  position: absolute;
+  left: -7%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+header .container {
+  position: relative;
+  bottom: -75vh;
+  text-align: center;
+  z-index: 2;
+}
+
+.fa {
+  font-size: 50px;
+  color: #fff;
+}
+.fa-play-circle {
+  font-size: 120px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #FDEF2D;
+}
+
+
+.no-pad {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav .btn {
+  color: #fff;
+  margin-top: 15px;
+  padding: 39px 35px;
+  margin-top: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.nav > li > a {
+  padding: 25px 35px;
+}
+
+.nav .btn:hover {
+  color: #000;
+}
+
+.highlight p {
+  font-size: 40px;
+}
+
+.highlight h1 {
+  font-size: 70px;
+}
